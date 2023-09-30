@@ -214,21 +214,18 @@ void solve()
 {
     ll n, k;
     cin >> n >> k;
-    ll res, p = 0;
-    for (ll i = 1; i <= n; i += 2)
+    if (n % 2 == 0 && k > n / 2)
     {
-        p++;
-        if (p == k)
-        {
-            res = i;
-            break;
-        }
-        if (i + 1 >= n)
-        {
-            i = 0;
-        }
+        cout << (k - (n / 2)) * 2;
     }
-    ot(res);
+    else if (k > n / 2 + 1)
+    {
+        cout << (k - ((n / 2) + 1)) * 2;
+    }
+    else
+    {
+        cout << k * 2 - 1;
+    }
 }
 
 int main()
