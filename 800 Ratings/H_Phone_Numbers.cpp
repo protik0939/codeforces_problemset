@@ -294,7 +294,7 @@ void solve()
 int main()
 {
     somoy;
-    //tc
+    // tc
     {
         solve();
     }
