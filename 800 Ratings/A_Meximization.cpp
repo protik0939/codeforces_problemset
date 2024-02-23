@@ -263,7 +263,6 @@ public:
 void solve()
 {
     strt;
-
     map<ll, ll> mp;
     vl arr(n);
     f(i, 0, n)
