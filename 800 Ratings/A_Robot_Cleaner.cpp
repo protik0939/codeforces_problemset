@@ -275,7 +275,7 @@ void solve()
 
     ll n, m, rb, cb, rd, cd;
     cin >> n >> m >> rb >> cb >> rd >> cd;
-    int r = 0, c = 0;
+    ll r = 0, c = 0;
     if (rb <= rd)
     {
         r = rd - rb;
