@@ -260,7 +260,7 @@ public:
                 prsz[ldA] += prsz[ldB];
             }
             else
-            {
+            {                                                                                                                                                                                           
                 pr[ldA] = ldB;
                 prsz[ldB] += prsz[ldA];
             }
