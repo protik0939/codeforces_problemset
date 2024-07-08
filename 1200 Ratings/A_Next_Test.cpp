@@ -275,16 +275,20 @@ public:
 
 void solve()
 {
-    ll b[3001];
+    ll b[3007];
 	strt;
     vl a;
     a.pb(0);
     vri(a,n);
+    f(i,0,3007)
+    {
+        b[i] = 0;
+    }
 	f1(i,1,n){
 		b[a[i]]++;
 	}
 	sort(a.begin() + 1, a.end());
-	f1(i,1,3001){
+	f1(i,1,3007){
 		if(b[i]==0){
 			ot(i);
 			break;
