@@ -279,7 +279,7 @@ void solve()
     cin >> n >> x >> y;
     vl a, b;
     vri(a, x);
-    vri(b, x);
+    vri(b, y);
     ll mx = vmax(a);
     mx == n ? ys : no;
 }
