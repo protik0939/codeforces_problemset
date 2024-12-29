@@ -6,7 +6,7 @@
                 "limitSymbolsToIncludedHeaders": true
             },
             "includePath": [
-                "${workspaceFolder}/**"
+                "C:\\gcc-14.2.0\\mingw\\include"
             ],
             "name": "windows-gcc-x64",
             "intelliSenseMode": "windows-gcc-x64",
