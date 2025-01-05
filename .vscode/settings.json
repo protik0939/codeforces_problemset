@@ -56,5 +56,12 @@
   "C_Cpp_Runner.showCompilationTime": false,
   "C_Cpp_Runner.useLinkTimeOptimization": false,
   "C_Cpp_Runner.msvcSecureNoWarnings": false,
-  "files.autoSave": "afterDelay"
+  "files.autoSave": "afterDelay",
+  "files.associations": {
+    "*.ndjson": "jsonl",
+    "*.dbclient-js": "javascript",
+    "*.html": "html",
+    "*.tsx": "typescriptreact",
+    "iostream": "cpp"
+  }
 }
