@@ -239,21 +239,33 @@ public:
 
 void solve()
 {
-    strt;
-    ll ans = 0;
-    f(i, 0, n)
+    ll w, h, u1, d1, u2, d2;
+    cin >> w >> h >> u1 >> d1 >> u2 >> d2;
+    ll a = h;
+    while (a)
     {
-        ll tmp;
-        cin >> tmp;
-        (i == 0 && tmp == 1) ? ans = 1 : ans;
+        w += a;
+        if (a == d1)
+        {
+            w -= u1;
+        }
+        if (a == d2)
+        {
+            w -= u2;
+        }
+        if (w < 0)
+        {
+            w = 0;
+        }
+        a--;
     }
-    ans ? ys : no;
+    ot(w);
 }
 
 int main()
 {
     somoy;
-    tc
+    // tc
     {
         solve();
     }
