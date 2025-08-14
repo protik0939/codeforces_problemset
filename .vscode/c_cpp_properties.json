@@ -8,9 +8,9 @@
       "includePath": [
         "${workspaceFolder}/**"
       ],
-      "name": "linux-gcc-x64",
-      "intelliSenseMode": "linux-gcc-x64",
-      "compilerPath": "/usr/bin/gcc",
+      "name": "windows-gcc-x86",
+      "intelliSenseMode": "windows-gcc-x86",
+      "compilerPath": "C:/MinGW/bin/gcc.exe",
       "cStandard": "${default}",
       "cppStandard": "${default}"
     }
