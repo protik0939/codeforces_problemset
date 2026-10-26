@@ -245,5 +245,5 @@ int main() {
   tc
   {
     solve();
-}
+  }
 }
